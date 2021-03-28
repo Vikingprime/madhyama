@@ -50,6 +50,8 @@ github_username:  Vikingprime
 theme: bulma-clean-theme
 remote_theme: chrisrhymes/bulma-clean-theme
 favicon: assets/images/madhyama_favicon.jpg
+paginate: 5
+paginate_path: "/blog/page:num"
 
 plugins:
   - jekyll-feed

@@ -1,0 +1,4 @@
+- name: Posts
+  link: blog/index.html
+- name: About Us
+  link: about
