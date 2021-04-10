@@ -1,6 +1,7 @@
 ---
-title: About
+title: About Us
 permalink: /about/
+hero_height: is-half-height
 ---
 
 This is a Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
