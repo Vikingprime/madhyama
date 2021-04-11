@@ -3,16 +3,12 @@ title: About Us
 permalink: /about/
 hero_height: is-half-height
 ---
+In Sanskrit, the word _Madhyama_ means middling or moderate.<sup>1</sup> As such, in an era of polarization, this forum was created to represent a middling view between several of India's ideologies and philosophies. The goal of Madhyama is to explore in depth, topics such as ancient Indic philosophy, animal rights, politics, and several other relevant topics. Posts may be written by anonymous or identified authors. The main rule of the forum is that no individual post will justify violence towards other human beings or other sentient beings, but otherwise viewpoints should be explored from several angles to provide a 'middling' viewpoint.
 
-This is a Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This does not mean, however, that all sources of information should be treated equally. The articles present on this website are opinion pieces that should all be heavily cited. If media sources are used, they should be labeled at minimum _Mixed_ (aiming for _Mostly Factual_ sources or higher) by https://mediabiasfactcheck.com/.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+_________________________________________________________________________________________________________________________
 
 
-[jekyll-organization]: https://github.com/jekyll
+<span style="font-size:0.5em;"><sup>1</sup>https://sanskritdictionary.com/</span>
+
