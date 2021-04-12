@@ -3,7 +3,7 @@ title: "Buddha and The Abrahamic Classification Problem"
 author: VKS
 categories: Hinduism Buddhism
 layout: post
-image: ../assets/images/buddhaganesha.jpg
+image: buddhaganesha.jpg
 summary: |-
     By the early 17th century, anthropologists had devised a classification system for the worlds’ belief systems. The four species in the genus “religion” were Christianity, Mohametanism, Judaism, and Idolatry...The attempt to classify Asian traditions eventually crystallized in the formation of familiar nomenclatures, “Hindouism” and “Boudism”...Even though labeling has suggested “Buddhism” and “Hinduism” were entirely separate entities, the political and religious atmosphere following the Buddha suggests this distinction is largely unfounded.
 ---

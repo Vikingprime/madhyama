@@ -6,4 +6,15 @@ hero_image: assets/images/lotussmall.jpg
 hero_darken: true
 hero_link: blog/index.html
 hero_link_text: Explore
+menubar_toc: false
+show_sidebar: true
 ---
+<p class="title is-4">Selected Posts</p>
+
+<div class="columns is-multiline">
+    {% for post in site.posts limit:2 %}
+    <div class="column is-12">
+        {% include post-card.html %}
+    </div>
+    {% endfor %}
+</div>
