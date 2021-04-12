@@ -12,9 +12,11 @@ show_sidebar: true
 <p class="title is-4">Selected Posts</p>
 
 <div class="columns is-multiline">
-    {% for post in site.posts limit:2 %}
+    {% for post in site.posts %}
     <div class="column is-12">
+        {% if post.selected %}
         {% include post-card.html %}
+        {% endif %}
     </div>
     {% endfor %}
 </div>
