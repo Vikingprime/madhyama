@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<div class="columns is-multiline">
+    <div class="column is-12">
+            <div class="tags is-centered">
+                    {% for tag in site.tags %}
+                        <a href="{{ site.baseurl }}/archive.html?tag={{ tag[0] }}" class="tag is-light">{{ tag[0] }}</a>
+                    {% endfor %}
+            </div>
+    </div>
+    <div class="column is-12">
+        {% include pagination.html %}
+    </div>
+    {% assign final_index = paginator.total_posts | minus: 1 %}
+    {% for i in (0..final_index) %}
+    {% assign remainder = i | modulo: 4 %}
+    {% assign post = paginator.posts[i] %}
+    {% if remainder == 0 %}
+    {% assign col_size = 7 %}
+    {% elsif remainder == 1 %}
+    {% assign col_size = 5 %}
+    {% elsif remainder == 2 %}
+    {% assign col_size = 5 %}
+    {% else %}
+    {% assign col_size = 7 %}
+    {% endif %}
+    <div class="column is-{{col_size}}">  
+        {% include post-card.html %}
+    </div>
+    {% endfor %}
+    <div class="column is-12">
+        {% include pagination.html %}
+    </div>
+    <div class="column is-12">
+        {% include subscribe.html %}
+    </div>
+</div>
