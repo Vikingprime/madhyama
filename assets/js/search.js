@@ -1,6 +1,5 @@
 ---
 ---
-console.log("Hello");
 (function(window, document, undefined) {
     'use strict';
   

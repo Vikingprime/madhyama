@@ -8,7 +8,7 @@ hero_height: is-half-height
 
 <div class="columns is-multiline">
 {% for author in site.authors %}
-    <div class="column is-12"> 
+    <div class="column is-12 is-clipped"> 
      {% include author-card.html %} 
     </div>
 {% endfor %}

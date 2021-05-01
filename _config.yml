@@ -16,11 +16,7 @@
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-collections:
-  authors:
-    output: true
-    
+# in the templates via {{ site.myvariable }}.   
 defaults:
   - scope:
       path: ""
@@ -58,6 +54,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+max_posts_per_author: 10
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

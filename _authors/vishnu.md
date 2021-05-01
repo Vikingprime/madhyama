@@ -1,6 +1,6 @@
 ---
 layout: page
-short_name: Vish
+short_name: Vishnu
 name: Vishnu
 position: Author
 ---

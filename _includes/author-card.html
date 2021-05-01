@@ -1,4 +1,4 @@
-<div class="card">
+<div class="card" id={{author.short_name}}>
     <div class="card-content">
         <div class="media">
             <div class="media-left">
@@ -15,6 +15,21 @@
             {% if author.content %}
                 {{ author.content | markdownify }}
             {% endif %}
+        </div>
+        <div>
+            <h4>Recents Posts</h4>
+            <ul>
+              {% assign filtered_posts = site.posts | where: 'author', author.short_name %}
+              {% assign max_posts = filtered_posts | size %}
+              {% assign max_index = max_posts | minus: 1 %}
+              {% if max_posts > site.max_posts_per_author %}
+                {% assign max_index = site.max_posts_per_author | minus: 1 %}
+              {% endif %}
+              {% for i in (0..max_index) %}
+                {% assign post = filtered_posts[i] %}
+                <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+              {% endfor %}
+            </ul>
         </div>
     </div>
 </div>  

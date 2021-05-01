@@ -1,8 +1,8 @@
 - name: Posts
   link: blog/index.html
-- name: About Us
-  link: about
 - name: Archive
   link: archive.html
 - name: Contributors
   link: contributors.html
+- name: About Us
+  link: about
