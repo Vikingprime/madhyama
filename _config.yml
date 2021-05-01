@@ -27,6 +27,7 @@ defaults:
       type: "authors"
     values:
       layout: "author"
+      image: "small-pig.png"
   - scope:
       path: ""
       type: "posts"
