@@ -1,5 +1,7 @@
 - name: Posts
   link: blog/index.html
+- name: Submit Posts
+  link: submit
 - name: Archive
   link: archive.html
 - name: Contributors
