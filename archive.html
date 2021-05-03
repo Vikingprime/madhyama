@@ -45,7 +45,7 @@ escape names on this page match those in the URL.
     {% assign nposts = tag | last | size %}
     <div class="collection" data-name="{{ tag | first | escape }}">
       <header>
-        <h1>{{ tag | first }}</h1>
+        <h3>{{ tag | first }}</h3>
       </header>
       <ul>
         {% for posts in tag %}
