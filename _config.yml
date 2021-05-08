@@ -46,7 +46,7 @@ google_analytics: UA-121288020-1
 
 theme: bulma-clean-theme
 remote_theme: chrisrhymes/bulma-clean-theme
-favicon: assets/images/madhyama_favicon.jpg
+favicon: assets/images/favicon.png
 paginate: 8
 paginate_path: "/blog/page:num"
 
