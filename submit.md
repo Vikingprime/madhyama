@@ -11,7 +11,7 @@ Posts should be in doc, docx, or pdf format and should be attached to the email.
 
 <h3> Why Submit Posts? </h3>
 
-Any post authors will have their name or pseudonym displayed on the 'Contributors' page for at least one month after their article is posted. Additionally, authors will be able to post their Patreon links to their article and the 'Contributors' page. Additional donation options may be considered if your country does not have Patreon.
+Any post authors will have their name or pseudonym displayed on the 'Contributors' page for at least one month after their article is posted. Additionally, authors will be able to post their Patreon links to their article and the 'Contributors' page. Additional donation options may be considered if your country does not have Patreon. 
 
 <h3> Submission Rules </h3>
 
@@ -35,7 +35,7 @@ Any post authors will have their name or pseudonym displayed on the 'Contributor
     <li> No Sexism </li>
     <li> No Racism </li>
     <li> No Bigotry Towards Any Religious Groups </li>
-    <li> No Support of Human or Animal Use and Abuse </li>
+    <li> No Support of Human or Animal Use/Abuse </li>
     <li> No Speciesism Towards Sentient Beings </li>
 </ul>
 </ul>
