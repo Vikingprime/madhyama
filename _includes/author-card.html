@@ -38,5 +38,15 @@
               {% endfor %}
             </ul>
         </div>
+        {% if author.sponsors %}
+            <div class="content">
+                    <h4>Sponsors</h4>
+                    <div class="tags">
+                        {% for sponsor in author.sponsors %}
+                            <p class='tag'>{{ sponsor }}</p>
+                        {% endfor %}
+                    </div>
+            </div>
+        {% endif %}
     </div>
 </div>  
