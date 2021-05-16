@@ -6,7 +6,7 @@ position: Chief Editor
 image: black_elephant.png
 patreon: madhyamaio
 buy_me_coffee: madhyama
-sponsors: ['Vishnu', 'VKS2']
+sponsors: ['Vishnu', 'VKSSponsor','hello', 'hello', 'hello', 'hello', 'hello', 'hello', 'hello', 'hello', 'hello', 'hello', 'hello']
 ---
 VKS is a New York-based software engineer and animal rights activist interested in ethics and Indic philosophy. VKS has some
 experience studying Buddhism in an academic
