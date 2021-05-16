@@ -38,11 +38,20 @@
               {% endfor %}
             </ul>
         </div>
-        {% if author.sponsors %}
+        {% if !page.disable_author_sponsors and author.sponsors %}
             <div class="content">
                     <h4>Sponsors</h4>
                     <div class="tags">
                         {% for sponsor in author.sponsors %}
+                            <p class='tag'>{{ sponsor }}</p>
+                        {% endfor %}
+                    </div>
+            </div>
+        {% elsif page.sponsors %}
+            <div class="content">
+                    <h4>Post Sponsors</h4>
+                    <div class="tags">
+                        {% for sponsor in page.sponsors %}
                             <p class='tag'>{{ sponsor }}</p>
                         {% endfor %}
                     </div>

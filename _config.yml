@@ -35,11 +35,19 @@ defaults:
       hero_height: is-half-height
 
 title: Madhyama
-email: your-email@example.com
+email: contact@madhyama.io
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+ In Sanskrit, the word Madhyama means middling or moderate. 
+ As such, in an era of polarization, this forum was created 
+ to represent a middling view between several of India’s 
+ ideologies and philosophies. The goal of Madhyama is to 
+ explore in depth, the marvelous intricacies of ancient Indic 
+ philosophy, human/animal rights, and politics in the context of India. 
+ Posts may be written by anonymous or identified authors, but 
+ will always be heavily cited. The main rule of the forum is 
+ that no individual post will justify violence towards other 
+ human beings or other sentient beings, but otherwise viewpoints
+ should be explored from several angles to provide a ‘middling’ viewpoint.
 url: "https://www.madhyama.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Vikingprime
 google_analytics: UA-121288020-1
@@ -57,7 +65,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-max_posts_per_author: 10
+max_posts_per_author: 4
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
