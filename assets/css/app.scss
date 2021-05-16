@@ -6,6 +6,33 @@ $title-size: 1.5rem;
 $title-weight: 1000;
 $title-line-height: 1.5;
 $danger: #750319;
+$warning: #FF424D;
+
+a:link.modern_link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+  }
+a:visited.modern_link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover.modern_link {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+a:active.modern_link {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
 // $hero-darken: #F6CD2F;
 // Import Main CSS file from theme
 @import "main";
