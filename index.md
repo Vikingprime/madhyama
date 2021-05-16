@@ -4,7 +4,7 @@ subtitle: A lens into various philosophical, political, and religious viewpoints
 layout: page
 hero_image: assets/images/lotussmall.jpg
 hero_darken: true
-hero_link: blog/index.html
+hero_link: blog/
 hero_link_text: Explore
 menubar_toc: false
 show_sidebar: true
