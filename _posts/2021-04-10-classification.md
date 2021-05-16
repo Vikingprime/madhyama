@@ -1,6 +1,6 @@
 ---
 title: "Buddha and The Abrahamic Classification Problem"
-author: VKS
+author_id: 0
 tags:
     - Hinduism
     - Buddhism

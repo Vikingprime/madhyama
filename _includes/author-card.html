@@ -1,4 +1,4 @@
-<div class="card" id={{author.short_name}}>
+<div class="card" id={{author.author_id}}>
     <div class="card-content">
         <div class="media">
             <div class="media-left">
@@ -26,7 +26,7 @@
         <div class="content">
             <h4>Recents Posts</h4>
             <ul>
-              {% assign filtered_posts = site.posts | where: 'author', author.short_name %}
+              {% assign filtered_posts = site.posts | where: 'author_id', author.author_id %}
               {% assign max_posts = filtered_posts | size %}
               {% assign max_index = max_posts | minus: 1 %}
               {% if max_posts > site.max_posts_per_author %}

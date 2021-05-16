@@ -1,10 +1,10 @@
 - name: Posts
-  link: blog/index.html
+  link: blog
 - name: Submit Posts
   link: submit
 - name: Archive
-  link: archive.html
+  link: archive
 - name: Contributors
-  link: contributors.html
+  link: contributors
 - name: About Us
   link: about

@@ -8,7 +8,7 @@ layout: default
     <div class="column is-12">
             <div class="tags is-centered">
                     {% for tag in site.tags %}
-                        <a href="{{ site.baseurl }}/archive.html?tag={{ tag[0] }}" class="tag is-light">{{ tag[0] }}</a>
+                        <a href="{{ site.baseurl }}/archive?tag={{ tag[0] }}" class="tag is-light">{{ tag[0] }}</a>
                     {% endfor %}
             </div>
     </div>

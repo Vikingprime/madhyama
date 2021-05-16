@@ -1,5 +1,6 @@
 ---
 layout: page
+author_id: 0
 short_name: VKS
 name: VKS
 position: Chief Editor

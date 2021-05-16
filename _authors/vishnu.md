@@ -1,6 +1,6 @@
 ---
 layout: page
-short_name: Vishnu
+author_id: 1
 name: Vishnu
 position: Author
 ---

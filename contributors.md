@@ -2,6 +2,7 @@
 layout: page
 title: Contributors
 hero_height: is-half-height
+permalink: /contributors/
 ---
 
 <h1>Authors</h1>

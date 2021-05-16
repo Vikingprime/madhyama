@@ -4,7 +4,7 @@
     'use strict';
   
     // Search page URL without leading slash
-    var SEARCH_PATH = '{{ site.baseurl }}/archive.html';
+    var SEARCH_PATH = '{{ site.baseurl }}/archive/';
   
     var ready = function(fn) {
       if (document.readyState != 'loading'){

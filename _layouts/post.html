@@ -3,12 +3,14 @@ layout: default
 ---
 
 <div class="content">
-
-    <p>Published: {{ page.date | date: "%b %-d, %Y" }} by 
-        <a class="modern_link" href="{{ site.baseurl }}/contributors.html#{{ page.author }}">{{ page.author }}
-        </a>
-    </p>
-    
+{% for author in site.authors %}
+    {% if author.author_id == page.author_id %}
+        <p>Published: {{ page.date | date: "%b %-d, %Y" }} by 
+            <a class="modern_link" href="{{ site.baseurl }}/contributors#{{ page.author_id }}">{{ author.name }}
+            </a>
+        </p>
+    {% endif %}
+{% endfor %}  
     {{ content }}
 </div>
 
@@ -21,7 +23,7 @@ layout: default
 </div>
 
 {% for author in site.authors %}
-    {% if author.name == page.author %}
+    {% if author.author_id == page.author_id %}
         <div class="column is-12 is-clipped"> 
         {% include author-card.html %} 
         </div>
@@ -32,9 +34,9 @@ layout: default
 {% endfor %}
 
 <div class="column is-12 is-clipped"> 
-{% unless site.hide_share_buttons %}
-{% include share-buttons.html %}
-{% endunless %}
+    {% unless site.hide_share_buttons %}
+    {% include share-buttons.html %}
+    {% endunless %}
 </div>
 
 {% if site.disqus.shortname %}
