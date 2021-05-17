@@ -3,6 +3,7 @@ layout: page
 title: Contributors
 hero_height: is-half-height
 permalink: /contributors/
+disable_author_sponsors: false
 ---
 
 <h1>Authors</h1>

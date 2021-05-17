@@ -38,7 +38,8 @@
               {% endfor %}
             </ul>
         </div>
-        {% if !page.disable_author_sponsors and author.sponsors %}
+        
+        {% if page.disable_author_sponsors == false and author.sponsors %}
             <div class="content">
                     <h4>Sponsors</h4>
                     <div class="tags">
