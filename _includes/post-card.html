@@ -6,13 +6,20 @@
     </div>
     {% else %}
     <header class="card-header">
-        <a class="card-header-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>
+        <a class="card-header-title is-centered has-text-weight-bold" href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>
     </header>
     {% endif %}
     <div class="card-content">
         <div class="content">
             {% if post.image %}
-            <a class="title is-4" href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>
+            <div class="has-text-centered mb-3">
+                <a class="title is-4 has-text-centered" href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>
+            </div>
+            <div class="columns is-centered">
+                <img src="{{ site.baseurl }}/assets/images/favicon.png" alt="{{ post.title }}">
+                <img class="mx-3" src="{{ site.baseurl }}/assets/images/favicon.png" alt="{{ post.title }}">
+                <img src="{{ site.baseurl }}/assets/images/favicon.png" alt="{{ post.title }}">
+            </div>
             {% endif %}
             {% if post.summary %}
                 {{ post.summary | markdownify }}
